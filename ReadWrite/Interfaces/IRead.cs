@@ -4,9 +4,8 @@ using System.Text;
 
 namespace ReadWrite.Interfaces
 {
-    public interface IReadWrite
+    public interface IRead
     {
         public string Read();
-        public void Write(string data);
     }
 }
