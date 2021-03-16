@@ -3,10 +3,10 @@ using System.IO;
 
 namespace ReadWrite.Implimentations
 {
-    public class Fisier : IReadWrite
+    public class FileActions : IRead , IWrite
     {
         private readonly string filePath;
-        public Fisier(string path)
+        public FileActions(string path)
         {
             filePath = path;
         }

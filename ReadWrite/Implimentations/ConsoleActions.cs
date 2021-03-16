@@ -3,7 +3,7 @@ using System;
 
 namespace ReadWrite.Implimentations
 {
-    public class Consola : IReadWrite
+    public class ConsoleActions : IRead , IWrite
     {
         public string Read()
         {
