@@ -12,7 +12,7 @@ namespace ReadWrite.Implimentations
         }
         public string Read()
         {
-            string data = "";
+            string data = null;
             if (File.Exists(filePath))
             {
                 using (StreamReader file = File.OpenText(filePath))
